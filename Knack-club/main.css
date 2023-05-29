@@ -1,0 +1,82 @@
+/* main.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  #nav-bar {
+    border-bottom:solid white 2px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 10px;
+  }
+  
+  #left img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-left: 5px;
+
+  }
+  
+  #mid ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  #mid ul li {
+    margin-right: 10px;
+  }
+  
+  #mid ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+  }
+  
+  #mid ul li a:hover {
+    color: red;
+    border-radius: 5px;
+  }
+  #left img:hover{
+    cursor: pointer;
+  }
+  #right button{
+    font-size: 20px;
+    margin: 5px;
+    background-color: white;
+    border-color: white;
+    border-style: outset;
+    border-radius: 5px;
+  }
+  #right button:hover{
+    font-weight: bold;
+    cursor: pointer;
+    color: red;
+  }
+  .name-knack{
+    color: rgb(247, 255, 5);
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: cursive;
+    font-style: oblique;
+  }
+  main{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+  .about{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: brown;
+  }
