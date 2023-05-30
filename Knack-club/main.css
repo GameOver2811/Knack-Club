@@ -49,21 +49,26 @@ body {
   cursor: pointer;
 }
 #right button{
-  font-family:'Courier New', Courier, monospace;
-  font-size: 20px;
-  font-weight: bold;
-  color: white;
-  margin: 5px;
-  background-color: black;
-  border-color: black;
-  border-style: outset;
-  border-radius: 20px;
-  padding: 10px;
+   background-color: #060707;
+  border-radius: 100px;
+  margin-left: 10px;
+  box-shadow: rgba(7, 7, 7, 0.988) 0 -25px 18px -14px inset,rgba(225, 53, 18, 0.15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(240, 6, 6, 0.15) 0 4px 8px,rgba(241, 5, 5, 0.15) 0 8px 16px,rgba(241, 2, 2, 0.15) 0 16px 32px;
+  color: rgb(248, 248, 248);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 #right button:hover{
-  font-weight: bold;
-  cursor: pointer;
-  color: grey;
+  transform: scale(1.05) rotate(-1deg);
 }
 .name-knack{
   margin-top:150px;
