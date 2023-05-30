@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url(images/background.webp);
+  background-image: url(images/Back.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -100,22 +100,4 @@ margin-left: 50px;
 color: white;
 font-family: cursive;
 width: 40%;
-}
-#learn-more{
-font-family:'Courier New', Courier, monospace;
-margin-left:50px ;
-margin-top: 60px;
-font-size: 20px;
-font-weight: bold;
-background-color: white;
-border-color: white;
-border-style: outset;
-border-radius: 20px;
-padding: 10px;
-border-color: white;
-}
-#learn-more:hover{
-font-weight: bold;
-cursor: pointer;
-color: red;
 }
