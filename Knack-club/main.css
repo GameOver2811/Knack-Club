@@ -67,6 +67,10 @@ body {
   -webkit-user-select: none;
   touch-action: manipulation;
 }
+#right button a{
+  text-decoration: none;
+  color: white;
+}
 #right button:hover{
    box-shadow: rgba(7, 7, 7, 0.988) 0 -25px 18px -14px inset,rgba(56, 200, 43, 0.15) 0 1px 2px,rgba(40, 167, 89, 0.15) 0 2px 4px,rgba(46, 186, 44, 0.15) 0 4px 8px,rgba(78, 213, 44, 0.15) 0 8px 16px,rgba(38, 178, 35, 0.15) 0 16px 32px;
   transform: scale(1.05) rotate(-1deg);
