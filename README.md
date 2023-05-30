@@ -1,6 +1,7 @@
 #                                                                       Knack-Club
 # 👋Welcome
 Hello contributers, this website is for Knack Club which allow participants to enroll in ongoing events and get a deep insight about knack club, this site is the right choice for you!
+In the club, we talk about latest trends in the tech industry and also about how to use Github efficiently.
 
 
 # ✔Feature
@@ -15,6 +16,7 @@ Technologies Used :
 1.	 HTML
 2.	 CSS
 3.	 JAVASCRIPT
+4.	 MongoDB
 
 If you want to work on this unique project and share it with the world, you can do that here. Go through the contributing guidelines here.
 
