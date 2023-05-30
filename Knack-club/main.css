@@ -13,7 +13,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+  backdrop-filter:blur(50px);
   padding: 10px;
 }
 
@@ -28,6 +28,7 @@ body {
 #mid ul {
   list-style: none;
   display: flex;
+  margin left:80px;
 }
 
 #mid ul li {
