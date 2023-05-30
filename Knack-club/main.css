@@ -9,7 +9,6 @@ body {
 }
 
 #nav-bar {
-  border-bottom:solid white 2px ;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,7 +27,7 @@ body {
 #mid ul {
   list-style: none;
   display: flex;
-  margin left:80px;
+  margin-left:80px;
 }
 
 #mid ul li {
