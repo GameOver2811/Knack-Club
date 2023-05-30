@@ -1,94 +1,115 @@
 /* main.css */
 body {
-    margin: 0;
-    padding: 0;
-    background-image: url(images/background.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-  }
-  
-  #nav-bar {
-    border-bottom:solid white 2px ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    padding: 10px;
-  }
-  
-  #left img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    padding-left: 5px;
-
-  }
-  
-  #mid ul {
-    list-style: none;
-    display: flex;
-  }
-  
-  #mid ul li {
-    margin-right: 10px;
-  }
-  
-  #mid ul li a {
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-    padding: 5px;
-  }
-  
-  #mid ul li a:hover {
-    color: red;
-    border-radius: 5px;
-  }
-  #left img:hover{
-    cursor: pointer;
-  }
-  #right button{
-    font-size: 20px;
-    margin: 5px;
-    background-color: white;
-    border-color: white;
-    border-style: outset;
-    border-radius: 20px;
-    padding: 10px;
-  }
-  #right button:hover{
-    font-weight: bold;
-    cursor: pointer;
-    color: red;
-  }
-  .name-knack{
-    color: rgb(247, 255, 5);
-    text-align: center;
-    font-size: 50px;
-    font-weight: bold;
-    font-family: cursive;
-    font-style: oblique;
-  }
-.content{
-  margin-left: 50px;
-  color: white;
-  font-family: cursive;
-  width: 40%;
+  margin: 0;
+  padding: 0;
+  background-image: url(images/background.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
-#learn-more{
-  margin-left:50px ;
-  margin-top: 60px;
+
+#nav-bar {
+  border-bottom:solid white 2px ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 10px;
+}
+
+#left img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding-left: 5px;
+
+}
+
+#mid ul {
+  list-style: none;
+  display: flex;
+}
+
+#mid ul li {
+  margin-right: 10px;
+}
+
+#mid ul li a {
+  text-decoration: none;
   font-size: 20px;
-  background-color: white;
-  border-color: white;
+  color: white;
+  padding: 5px;
+}
+
+#mid ul li a:hover {
+  color:grey;
+  border-radius: 5px;
+}
+#left img:hover{
+  cursor: pointer;
+}
+#right button{
+  font-family:'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin: 5px;
+  background-color: black;
+  border-color: black;
   border-style: outset;
   border-radius: 20px;
   padding: 10px;
-  border-color: white;
 }
-#learn-more:hover{
+#right button:hover{
   font-weight: bold;
   cursor: pointer;
-  color: red;
+  color: grey;
+}
+.name-knack{
+  color: rgb(71, 96, 240);
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+}
+.name{
+  color: rgb(136, 228, 31);
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+}
+.name1{
+  color: rgb(243, 35, 35);
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+}
+.content{
+margin-left: 50px;
+color: white;
+font-family: cursive;
+width: 40%;
+}
+#learn-more{
+font-family:'Courier New', Courier, monospace;
+margin-left:50px ;
+margin-top: 60px;
+font-size: 20px;
+font-weight: bold;
+background-color: white;
+border-color: white;
+border-style: outset;
+border-radius: 20px;
+padding: 10px;
+border-color: white;
+}
+#learn-more:hover{
+font-weight: bold;
+cursor: pointer;
+color: red;
 }
