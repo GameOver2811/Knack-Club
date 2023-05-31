@@ -1,0 +1,106 @@
+/* main.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(images/Back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter:blur(50px);
+  padding: 10px;
+}
+
+#left img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding-left: 5px;
+
+}
+
+#mid ul {
+  list-style: none;
+  display: flex;
+  margin-left:80px;
+}
+
+#mid ul li {
+  margin-right: 10px;
+}
+
+#mid ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding: 5px;
+}
+
+#mid ul li a:hover {
+  color:grey;
+  border-radius: 5px;
+}
+#left img:hover{
+  cursor: pointer;
+}
+#right button{
+   background-color: #060707;
+  border-radius: 100px;
+  margin-left: 10px;
+  box-shadow: rgba(7, 7, 7, 0.988) 0 -25px 18px -14px inset,rgba(225, 53, 18, 0.15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(240, 6, 6, 0.15) 0 4px 8px,rgba(241, 5, 5, 0.15) 0 8px 16px,rgba(241, 2, 2, 0.15) 0 16px 32px;
+  color: rgb(248, 248, 248);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+#right button a{
+  text-decoration: none;
+  color: white;
+}
+#right button:hover{
+   box-shadow: rgba(7, 7, 7, 0.988) 0 -25px 18px -14px inset,rgba(56, 200, 43, 0.15) 0 1px 2px,rgba(40, 167, 89, 0.15) 0 2px 4px,rgba(46, 186, 44, 0.15) 0 4px 8px,rgba(78, 213, 44, 0.15) 0 8px 16px,rgba(38, 178, 35, 0.15) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+.name-knack{
+  margin-top:150px;
+  margin-left:50px;
+  color: rgb(71, 96, 240);
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+}
+.name{
+  color: rgb(136, 228, 31);
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: normal;
+}
+.name1{
+  color: rgb(243, 35, 35);
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: normal;
+}
+.content{
+margin-left: 50px;
+color: white;
+font-family: cursive;
+width: 40%;
+}
