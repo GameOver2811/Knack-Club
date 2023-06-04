@@ -40,6 +40,7 @@ body {
   font-size: 20px;
   color: white;
   padding: 5px;
+  -webkit-user-select: none;
 }
 
 #mid ul li a:hover {
