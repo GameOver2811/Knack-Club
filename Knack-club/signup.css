@@ -52,14 +52,14 @@ body{
     cursor: pointer;
 }
 #title-lastname{
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 37px;
 }
 #title-lastname:hover{
     cursor: pointer;
 }
 #title-username{
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 37px;
 }
 #title-username:hover{
@@ -93,7 +93,7 @@ body{
     outline: none;
 }
 #title-password{
-    margin-top: 15px;
+    margin-top: 20px;
     margin-left: 37px;
 }
 .password{
@@ -109,7 +109,7 @@ body{
     cursor: pointer;
 }
 #title-confirmpassword{
-    margin-top: 15px;
+    margin-top: 20px;
     margin-left: 37px;
 }
 .confirmpassword{
@@ -154,66 +154,6 @@ body{
     margin-left: 230px;
 }
 #forgot-password:hover{
-    cursor: pointer;
-    color: gray;
-}
-.line1{
-    margin-left: 90px;
-    width: 100px;
-    height: 2px;
-    background-color: white;
-    border-radius:solid white 2px;
-    display: inline-block;
-}
-.line2{
-    width: 100px;
-    height: 2px;
-    background-color: white;
-    border-radius:solid white 2px;
-    display: inline-block;
-}
-.or{
-    margin-top: 50px;
-    display: inline-block;
-}
-.google {
-    display: flex;
-    align-items: center;
-  }
-.google-img{
-    margin-left: 10px;
-}
-.google-img img{
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    margin-top: 30px;
-    margin-left: 120px;
-    margin-right: 5px;
-    transition: all 250ms;
-}
-.google-img img:hover{
-    cursor: pointer;
-    transform: scale(2.05) rotate(0deg);
-}
-.google-name{
-    margin-top: 30px;
-    margin-left: 10px;
-    font-size: 25px;
-}
-.google-name:hover{
-    cursor: pointer;
-    color: red;
-}
-.new-account span{
-    margin-left: 5px;
-    color: red;
-}
-.new-account{
-    text-align: center;
-    margin-top: 40px;
-}
-.new-account span:hover{
     cursor: pointer;
     color: gray;
 }
