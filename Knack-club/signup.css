@@ -1,0 +1,159 @@
+body{
+    background-image: url(images/Back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.main{
+    width: 400px;
+    height: 600px;
+    margin-left:570px ;
+    margin-top: 50px;
+    backdrop-filter:blur(50px);
+    color :aliceblue;
+    /* border: solid white 2px; */
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: all 250ms;
+}
+.main:hover{
+  box-shadow: rgba(7, 7, 7, 0.988) 0 -25px 18px -14px inset,rgba(185, 9, 9, 0.15) 0 1px 2px,rgba(211, 11, 11, 0.15) 0 2px 4px,rgba(211, 20, 20, 0.15) 0 4px 8px,rgba(192, 41, 24, 0.15) 0 8px 16px,rgba(203, 73, 8, 0.15) 0 16px 32px;
+  transform: scale(1.05) rotate(0deg);
+}
+.login{
+    text-align: center;
+    width: 400px;
+    height: 60px;
+    backdrop-filter: blur(100%);
+    border-bottom: solid white 2px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.welcome{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.welcome span{
+    color: red;
+}
+.welcome span:hover{
+    cursor: pointer;
+}
+#title-firstname{
+    margin-top: 50px;
+    margin-left: 37px;
+}
+#title-firstname:hover{
+    cursor: pointer;
+}
+#title-lastname{
+    margin-top: 20px;
+    margin-left: 37px;
+}
+#title-lastname:hover{
+    cursor: pointer;
+}
+#title-username{
+    margin-top: 20px;
+    margin-left: 37px;
+}
+#title-username:hover{
+    cursor: pointer;
+}
+.firstname{
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 5px;
+    border-radius: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.lastname{
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 5px;
+    border-radius: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.username{
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 5px;
+    border-radius: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+#title-password{
+    margin-top: 20px;
+    margin-left: 37px;
+}
+.password{
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 5px;
+    border-radius: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+#title-password:hover{
+    cursor: pointer;
+}
+#title-confirmpassword{
+    margin-top: 20px;
+    margin-left: 37px;
+}
+.confirmpassword{
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 5px;
+    border-radius: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+#title-confirmpassword:hover{
+    cursor: pointer;
+}
+#login-button{
+    background-color: #060707;
+    border-radius: 100px;
+    margin-left: 160px;
+    margin-top: 20px;
+    color: rgb(248, 248, 248);
+    box-shadow: rgba(7, 7, 7, 0.988) 0 -25px 18px -14px inset,rgba(225, 53, 18, 0.15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(240, 6, 6, 0.15) 0 4px 8px,rgba(241, 5, 5, 0.15) 0 8px 16px,rgba(241, 2, 2, 0.15) 0 16px 32px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+#login-button:hover{
+    box-shadow: rgba(7, 7, 7, 0.988) 0 -25px 18px -14px inset,rgba(56, 200, 43, 0.15) 0 1px 2px,rgba(40, 167, 89, 0.15) 0 2px 4px,rgba(46, 186, 44, 0.15) 0 4px 8px,rgba(78, 213, 44, 0.15) 0 8px 16px,rgba(38, 178, 35, 0.15) 0 16px 32px;
+    transform: scale(1.05) rotate(0deg);
+}
+#forgot-password{
+    color: red;
+    margin-top: 5px;
+    margin-left: 230px;
+}
+#forgot-password:hover{
+    cursor: pointer;
+    color: gray;
+}
