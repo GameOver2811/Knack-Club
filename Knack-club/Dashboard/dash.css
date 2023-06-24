@@ -5,6 +5,8 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    
+    
 }
 .left{
     width: 250px;
@@ -15,6 +17,7 @@ body{
     margin-left: 90px;
     margin-bottom: 25px;
     transition: all 250ms;
+    
 }
 .left:hover{
     box-shadow: 1px 2px 3px 1px blue;
