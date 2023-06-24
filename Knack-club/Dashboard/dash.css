@@ -8,11 +8,12 @@ body{
 }
 .left{
     width: 250px;
-    height: 650px;
+    height: 900px;
     backdrop-filter: blur(50px);
     border-radius: 20px;
     margin-top: 49px;
     margin-left: 90px;
+    margin-bottom: 25px;
     transition: all 250ms;
 }
 .left:hover{
@@ -28,15 +29,15 @@ body{
     border-radius: 20px;
     transition: all 250ms;
     backdrop-filter: blur(50px);
+    
 }
 .left:hover{
-    box-shadow: rgba(64, 28, 210, 0.25) 0px 30px 60px -12px inset, rgba(25, 14, 179, 0.3) 0px 18px 36px -18px inset;
-
+    box-shadow: rgba(32, 28, 160, 0.17) 0px -23px 25px 0px inset, rgba(38, 12, 171, 0.15) 0px -36px 30px 0px inset, rgba(43, 19, 168, 0.1) 0px -79px 40px 0px inset, rgba(55, 14, 219, 0.06) 0px 2px 1px, rgba(53, 37, 201, 0.09) 0px 4px 2px, rgba(60, 67, 251, 0.09) 0px 8px 4px, rgba(28, 5, 143, 0.09) 0px 16px 8px, rgba(12, 21, 255, 0.09) 0px 32px 16px;
     transform: scale(1.01);
 }
 .right-top:hover{
     transform: scale(1.01);
-    box-shadow: rgba(131, 24, 24, 0.25) 0px 30px 60px -12px inset, rgba(173, 22, 22, 0.3) 0px 18px 36px -18px inset;
+    box-shadow: rgba(131, 24, 24, 0.25) 0px 30px 60px -12px inset, rgba(221, 28, 28, 0.3) 0px 18px 36px -18px inset;
 }
 
 .right-mid{
@@ -51,11 +52,12 @@ body{
 }
 .right-mid:hover{
     transform: scale(1.01);
-    box-shadow: rgba(131, 24, 24, 0.25) 0px 30px 60px -12px inset, rgba(173, 22, 22, 0.3) 0px 18px 36px -18px inset;
+    box-shadow: rgba(130, 8, 8, 0.17) 0px -13px 25px 0px inset, rgba(141, 3, 28, 0.15) 0px -16px 30px 0px inset, rgba(233, 42, 42, 0.1) 0px -19px 40px 0px inset, rgba(150, 20, 20, 0.225) 0px 2px 1px, rgba(161, 22, 22, 0.09) 0px 4px 2px, rgba(99, 23, 23, 0.09) 0px 8px 4px, rgba(195, 56, 56, 0.09) 0px 16px 8px, rgba(113, 25, 25, 0.09) 0px 32px 16px;
+    
 }
 .right-bottom{
     width:1000px;
-    height: 200px;
+    height: 456px;
     position: absolute;
     top: 489px;
     left: 380px;
@@ -65,5 +67,5 @@ body{
 }
 .right-bottom:hover{
     transform: scale(1.01);
-    box-shadow: rgba(39, 177, 23, 0.25) 0px 30px 60px -12px inset, rgba(46, 179, 5, 0.3) 0px 18px 36px -18px inset;
+    box-shadow: rgba(8, 130, 12, 0.17) 0px -13px 25px 0px inset, rgba(6, 142, 85, 0.15) 0px -16px 30px 0px inset, rgba(23, 205, 41, 0.1) 0px -19px 40px 0px inset, rgba(5, 148, 10, 0.225) 0px 2px 1px, rgba(10, 115, 28, 0.09) 0px 4px 2px, rgba(49, 228, 108, 0.09) 0px 8px 4px, rgba(1, 142, 53, 0.09) 0px 16px 8px, rgba(10, 169, 10, 0.09) 0px 32px 16px;
 }
