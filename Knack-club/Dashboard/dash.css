@@ -4,9 +4,7 @@ body{
     background-image: url(Dash-images/Back.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-    
-    
+    background-size: cover;    
 }
 .left{
     width: 250px;
@@ -17,11 +15,35 @@ body{
     margin-left: 90px;
     margin-bottom: 25px;
     transition: all 250ms;
-    
 }
 .left:hover{
     box-shadow: 1px 2px 3px 1px blue;
     transform: scale(1.01);
+}
+.left hr{
+    width: 235px;
+}
+.icon{
+    display: inline-block;
+}
+.icon img{
+    border-radius: 10px;
+    width: 80px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.name{
+    display: inline-block;
+    margin-left: 7px;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 20;
+    color: white;
+}
+.prog{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
 }
 .right-top{
     width:1000px;
@@ -31,8 +53,7 @@ body{
     left: 380px;
     border-radius: 20px;
     transition: all 250ms;
-    backdrop-filter: blur(50px);
-    
+    backdrop-filter: blur(50px);    
 }
 .left:hover{
     box-shadow: rgba(32, 28, 160, 0.17) 0px -23px 25px 0px inset, rgba(38, 12, 171, 0.15) 0px -36px 30px 0px inset, rgba(43, 19, 168, 0.1) 0px -79px 40px 0px inset, rgba(55, 14, 219, 0.06) 0px 2px 1px, rgba(53, 37, 201, 0.09) 0px 4px 2px, rgba(60, 67, 251, 0.09) 0px 8px 4px, rgba(28, 5, 143, 0.09) 0px 16px 8px, rgba(12, 21, 255, 0.09) 0px 32px 16px;
@@ -42,7 +63,6 @@ body{
     transform: scale(1.01);
     box-shadow: rgba(131, 24, 24, 0.25) 0px 30px 60px -12px inset, rgba(221, 28, 28, 0.3) 0px 18px 36px -18px inset;
 }
-
 .right-mid{
     width:1000px;
     height: 200px;
@@ -55,8 +75,7 @@ body{
 }
 .right-mid:hover{
     transform: scale(1.01);
-    box-shadow: rgba(130, 8, 8, 0.17) 0px -13px 25px 0px inset, rgba(141, 3, 28, 0.15) 0px -16px 30px 0px inset, rgba(233, 42, 42, 0.1) 0px -19px 40px 0px inset, rgba(150, 20, 20, 0.225) 0px 2px 1px, rgba(161, 22, 22, 0.09) 0px 4px 2px, rgba(99, 23, 23, 0.09) 0px 8px 4px, rgba(195, 56, 56, 0.09) 0px 16px 8px, rgba(113, 25, 25, 0.09) 0px 32px 16px;
-    
+    box-shadow: rgba(130, 8, 8, 0.17) 0px -13px 25px 0px inset, rgba(141, 3, 28, 0.15) 0px -16px 30px 0px inset, rgba(233, 42, 42, 0.1) 0px -19px 40px 0px inset, rgba(150, 20, 20, 0.225) 0px 2px 1px, rgba(161, 22, 22, 0.09) 0px 4px 2px, rgba(99, 23, 23, 0.09) 0px 8px 4px, rgba(195, 56, 56, 0.09) 0px 16px 8px, rgba(113, 25, 25, 0.09) 0px 32px 16px;    
 }
 .right-bottom{
     width:1000px;
