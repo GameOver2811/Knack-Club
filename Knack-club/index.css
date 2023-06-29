@@ -106,5 +106,23 @@ body {
 .drop{
   margin-top: 10px;
 }
+.bot{
+  margin: 0px;
+  padding: 0px;
+}
+.bot img{
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  left: 0rem;
+  bottom: 0rem;
+  width: 10rem;
+  height: 8rem;
+  transition: all 250ms;
+}
+.bot img:hover{
+ cursor: pointer;
+ filter: drop-shadow(0 0.2rem 0.25rem rgba(5, 84, 255, 0.993) );
+}
 
 
