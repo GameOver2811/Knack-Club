@@ -129,41 +129,71 @@ body {
   position: absolute;
   width: 200px;
   height: 200px;
-  background-color: red;
+  backdrop-filter: blur(50px);
   border-top-left-radius: 50%;
   border-bottom-left-radius: 50%;
   right: 50px;
   top: 90px;
+  border:2px solid red;
 }
 #president{
   top: 310px;
 }
+.member img{
+  width: 190px;
+  height: 190px;
+  margin:5px ;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  transition: all 250ms;
+}
+.member img:hover{
+ transform: scale(1.04);
+}
 #vice{
   top: 530px;
 }
-.filler-president{
+#filler-president{
   position: absolute;
   height: 200px;
   width: 50px;
-  background-color: green;
+  backdrop-filter: blur(50px);
   top: 90px;
   right: 0px;
 }
-.filler-vice{
+#filler-vice{
   position: absolute;
   height: 200px;
   width: 50px;
-  background-color: green;
+  backdrop-filter: blur(50px);
   top: 310px;
   right: 0px;
 }
-.filler-head{
+#filler-head{
   position: absolute;
   height: 200px;
   width: 50px;
-  background-color: green;
+  backdrop-filter: blur(50px);
   top: 530px;
   right: 0px;
 }
-
+.filler{
+  border: 2px solid green; 
+}
+.filler p{
+  color: white;
+  margin: 0px;
+  padding: 1px;
+  margin-left: 18px;
+  font-size: 17px;
+}
+.vice {
+  display: inline-block;
+}
+#filler-head .name-head{
+  margin-top: 20px;
+}
+#filler-vice .name-vice{
+  margin-top: 50px;
+}
 
