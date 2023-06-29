@@ -122,6 +122,7 @@ body {
 }
 .bot img:hover{
  cursor: pointer;
+ transform: rotateY(20deg);
  filter: drop-shadow(0 0.2rem 0.25rem rgba(5, 84, 255, 0.993) );
 }
 
