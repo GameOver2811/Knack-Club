@@ -125,6 +125,45 @@ body {
  transform: rotateY(10deg);
  filter: drop-shadow(0 0.2rem 0.25rem rgba(5, 84, 255, 0.993) );
 }
-
+.member{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  right: 50px;
+  top: 90px;
+}
+#president{
+  top: 310px;
+}
+#vice{
+  top: 530px;
+}
+.filler-president{
+  position: absolute;
+  height: 200px;
+  width: 50px;
+  background-color: green;
+  top: 90px;
+  right: 0px;
+}
+.filler-vice{
+  position: absolute;
+  height: 200px;
+  width: 50px;
+  background-color: green;
+  top: 310px;
+  right: 0px;
+}
+.filler-head{
+  position: absolute;
+  height: 200px;
+  width: 50px;
+  background-color: green;
+  top: 530px;
+  right: 0px;
+}
 
 
